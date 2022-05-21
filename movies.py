@@ -44,15 +44,11 @@ while True:
         print("table created")
         pass
     elif(choice==2):
-        list=[]
-        n=int(input("Enter the number of records to be added to table"))
-        for i in range(n):
-            a=input("Enter name of the movie"+str(i))
-            b=input("Enter name of the actor"+str(i))
-            c=input("Enter name of the actoress"+str(i))
-            d=input("Enter year of the movie released"+str(i))
-            list.appe
-        add_many(list)
+        a=input("Enter name of the movie")
+        b=input("Enter name of the actor")
+        c=input("Enter name of the actoress")
+        d=input("Enter year of the movie released")
+        add_many(a,b,c,d)
         pass
     elif(choice==3):
         display()
